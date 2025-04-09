@@ -1,16 +1,16 @@
-
+import Image from "next/image";
 
 export default function Home() {
   return (
-    <div>
-      <h1>Hello World</h1>
-      <p>Welcome to my website</p>
-      <p>Here are some of my projects</p>
-      <ul>
-        <li>Project 1</li>
-        <li>Project 2</li>
-        <li>Project 3</li>
-      </ul>
-    </div>
+    <main>
+      <Image
+        src="/logo.png"
+        alt="A server surrounded by magic sparkles."
+        width={300}
+        height={200}
+      />
+      <h1>Welcome to this NextJS Course!</h1>
+      <p>🔥 Let&apos;s get started! 🔥</p>
+    </main>
   );
 }
